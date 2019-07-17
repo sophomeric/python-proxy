@@ -8,8 +8,11 @@ An academic exercise really. It is a python script that acts as a DNS proxy by l
 - Accept UDP connections too
 - Make it more reusable by allowing bind_to and forward_to to be CLI arguments or environment variables.
     - Personally I like docopt
+    - In kubernetes you could change the ConfigMap and have the proxy periodically check for changes and reload/reconnect.
 - Detect if the input actually is a DNS query and reject those that aren't.
 - Convert to Python3
+- Support multiple backends and provide some fault tolerance by using the next if the first doesn't answer or fails.
+- Rate limiting or caching could be added
 
 ## References
 - [select module implementing a generic server](https://pymotw.com/2/select/)
