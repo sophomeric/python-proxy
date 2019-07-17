@@ -7,7 +7,7 @@ An academic exercise really. It is a python script that acts as a DNS proxy by l
 ## Wish List / To Do
 - Accept UDP connections too
 - Make it more reusable by allowing bind_to and forward_to to be CLI arguments or environment variables.
--- Personally I like docopt
+    - Personally I like docopt
 - Detect if the input actually is a DNS query and reject those that aren't.
 - Convert to Python3
 
@@ -17,6 +17,6 @@ An academic exercise really. It is a python script that acts as a DNS proxy by l
 - [Python2 socket module](https://docs.python.org/2/library/socket.html)
 - [Python2 ssl module](https://docs.python.org/2/library/ssl.html)
 - [Python2 Queues module](https://docs.python.org/2/library/queue.html)
--- Ultimately this was ripped out.
+    - Ultimately this was ripped out.
 - [Hand writing DNS messages with Python](https://routley.io/tech/2017/12/28/hand-writing-dns-messages.html)
--- Not really used in this project but could be useful if you wanted to more elegantly format the log messages.
+    - Not really used in this project but could be useful if you wanted to more elegantly format the log messages.
